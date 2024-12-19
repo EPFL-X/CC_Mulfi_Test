@@ -1,0 +1,18 @@
+STARTING AT Thu Dec 19 04:17:39 PM CET 2024
+Slurm Job Id SLURM_ARRAY_JOB_ID is 29402764
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2024 The MathWorks, Inc.
+             R2024a Update 1 (24.1.0.2568132) 64-bit (glnxa64)
+                               March 28, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+Starting parallel pool (parpool) using the 'Processes' profile ...
+19-Dec-2024 16:22:49: Job Running. Waiting for parallel pool workers to connect ...
+Connected to parallel pool with 72 workers.
+Elapsed time is 595.777576 seconds.
+Parallel pool using the 'Processes' profile is shutting down.
+FINISHED at Thu Dec 19 04:32:56 PM CET 2024

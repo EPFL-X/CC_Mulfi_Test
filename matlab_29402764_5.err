@@ -1,0 +1,60 @@
+
+Currently Loaded Modules:
+  1) matlab/R2024a
+
+ 
+
+
+------------------------------------------------------------------------
+          std::terminate() detected at Thu Dec 19 16:28:48 2024
+------------------------------------------------------------------------
+Architecture     : glnxa64
+Processor ID     : Intel(R) Xeon(R) Platinum 8360Y CPU @ 2.40GHz
+Host Name        : jbm010
+Locale           : en_US
+
+
+Abnormal termination:
+std::terminate()
+
+Current Thread: 'GTP_7' id 140364488894016
+
+Register State (captured):
+  RAX = 0000000000000000  RBX = 00007fa9b26063c8
+  RCX = 0000000000000000  RDX = 00007fa9b25efe88
+  RSP = 00007fa9277fbf90  RBP = 00007fa9277fc370
+  RSI = 00007fa9b25d4f6d  RDI = 00007fa9277fbfa0
+
+   R8 = 0000000000000001   R9 = 00007fa9277fc280
+  R10 = 0000000000000000  R11 = 0000000000000000
+  R12 = 00007fa9b25d4f6d  R13 = 00007fa9277fc3e0
+  R14 = 00007fa9277fc850  R15 = 00007fa9277fccf0
+
+  RIP = 00007fa9b257e93f  EFL = 0000000000000000
+
+   CS = 0000   FS = 0000   GS = 0000
+
+Stack Trace (captured):
+[  0] 0x00007fa9b2578433 /scratch/zhang2/ServiceHost/jbm010/v2024.2.1.0/bin/glnxa64/libmwfl.so+00320563
+[  1] 0x00007fa9b257867c /scratch/zhang2/ServiceHost/jbm010/v2024.2.1.0/bin/glnxa64/libmwfl.so+00321148 _ZN10foundation4core4diag15stacktrace_base7captureEm+00000028
+[  2] 0x00007fa9b257a4fa /scratch/zhang2/ServiceHost/jbm010/v2024.2.1.0/bin/glnxa64/libmwfl.so+00328954
+[  3] 0x00007fa9b257a7a2 /scratch/zhang2/ServiceHost/jbm010/v2024.2.1.0/bin/glnxa64/libmwfl.so+00329634
+[  4] 0x00007fa9b2ee2901 /scratch/zhang2/ServiceHost/jbm010/v2024.2.1.0/bin/glnxa64/libmwagentutils.so+00637185
+[  5] 0x00007fa9b2ee37fa /scratch/zhang2/ServiceHost/jbm010/v2024.2.1.0/bin/glnxa64/libmwagentutils.so+00641018
+[  6] 0x00007fa9b2ee3969 /scratch/zhang2/ServiceHost/jbm010/v2024.2.1.0/bin/glnxa64/libmwagentutils.so+00641385
+[  7] 0x00007fa9b2ee0c98 /scratch/zhang2/ServiceHost/jbm010/v2024.2.1.0/bin/glnxa64/libmwagentutils.so+00629912
+[  8] 0x00007fa9b28f5efa /scratch/zhang2/ServiceHost/jbm010/v2024.2.1.0/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00724730
+[  9] 0x00007fa9b28f5f65 /scratch/zhang2/ServiceHost/jbm010/v2024.2.1.0/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00724837
+[ 10] 0x00007fa9b28f61b7 /scratch/zhang2/ServiceHost/jbm010/v2024.2.1.0/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00725431
+[ 11] 0x00007fa9b2d91368 /scratch/zhang2/ServiceHost/jbm010/v2024.2.1.0/bin/glnxa64/libmwfoundation_filesystem.so+00213864
+[ 12] 0x00007fa9b2d915ed /scratch/zhang2/ServiceHost/jbm010/v2024.2.1.0/bin/glnxa64/libmwfoundation_filesystem.so+00214509
+[ 13] 0x00007fa9b2d887ce /scratch/zhang2/ServiceHost/jbm010/v2024.2.1.0/bin/glnxa64/libmwfoundation_filesystem.so+00178126 _ZN2fl10filesystem9canonicalERKNSt7__cxx1112basic_stringIDsSt11char_traitsIDsESaIDsEEES8_+00000174
+[ 14] 0x00007fa9b2ed7ba7 /scratch/zhang2/ServiceHost/jbm010/v2024.2.1.0/bin/glnxa64/libmwagentutils.so+00592807
+[ 15] 0x00007fa9b2ed9597 /scratch/zhang2/ServiceHost/jbm010/v2024.2.1.0/bin/glnxa64/libmwagentutils.so+00599447 _ZN5agent5utils13launchUpdaterERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEENS0_13MciUpdateTypeESt8functionIFbvEERKSt6vectorIS6_SaIS6_EE+00001287
+[ 16] 0x00007fa935c4e5c7 /scratch/zhang2/ServiceHost/jbm010/v2024.2.1.0/bin/glnxa64/spf/serviceproviders/matlabconnector/serviceprocess/service_lifetime/lifetime_service/libmwservicelifetimelifetimeservice.so+00284103
+[ 17] 0x00007fa9b29218c3 /scratch/zhang2/ServiceHost/jbm010/v2024.2.1.0/bin/glnxa64/../../sys/os/glnxa64/libstdc++.so.6+00903363
+[ 18] 0x00007fa9b26be6c2                                   /lib64/libc.so.6+00673474
+[ 19] 0x00007fa9b265e3f0                                   /lib64/libc.so.6+00279536
+
+
+** This crash report has been written to /home/zhang2/.MathWorks/ServiceHost/jbm010/logs/MathWorksServiceHost_crash_4032643.log **
